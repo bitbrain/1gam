@@ -1,0 +1,59 @@
+* {
+  font-family: 'Bungee', cursive;
+}
+
+html, body {
+  background-color: #171223;
+  color: #4a426f;
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 3em;
+  line-height: 1.5em;
+}
+
+a {
+  color: #9bd556;
+  text-shadow: 0 0 0.5em #00ba04;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff0060;
+  text-shadow: 0 0 1em #b70000;
+}
+
+.entry {
+  line-height: 2em;
+  margin-top: 2em;
+  display: block;
+}
+
+.entry ul {
+  font-size: 0.5em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entry ul li {
+  display: inline-block;
+  color: #ff0060;
+  text-shadow: 0 0 0.7em #b70000;
+  margin-right: 0.5em;
+}
+
+.entry ul li:before {
+  content: "#";
+}
+
+.entry .name {
+  margin: 0.1em 0;
+  font-size: 3em;
+  color: #9bd556;
+  text-shadow: 0 0 0.5em #00ba04;
+}
+
+.entry .month {
+  color: #00baff;
+  text-shadow: 0 0 0.5em #005aff;
+}
